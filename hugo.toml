@@ -10,6 +10,18 @@ theme = "PaperMod"
   ShowBreadCrumbs = true
   ShowToc = true
 
+[params.homeInfoParams]
+  Title = "Security & Architecture Notes"
+  Content = "Personal study notes, CISSP domain summaries, and Application Security architecture references by Devendra Dagur."
+
+[[params.socialIcons]]
+  name = "github"
+  url = "https://github.com/Devendra-Dagur"
+
+[[params.socialIcons]]
+  name = "linkedin"
+  url = "https://www.linkedin.com/" # Replace with your LinkedIn profile URL
+
 [outputs]
   home = ["HTML", "RSS", "JSON"]
 
