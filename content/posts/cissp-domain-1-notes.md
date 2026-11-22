@@ -5,8 +5,9 @@ draft = false
 tags = ["CISSP", "AppSec", "SDLC"]
 +++
 
-## Professional Ethics and & Security Concepts
-1. Code of professional Etics
-2. Organization code of ethics
-3. Confidentiality
-4. Integrity
+## Professional Ethics & Security Concepts
+- Code of Professional Ethics
+- Organization Code of Ethics
+- Confidentiality
+- Integrity
+- Availability

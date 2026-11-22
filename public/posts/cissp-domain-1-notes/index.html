@@ -7,12 +7,13 @@
 <meta name="robots" content="noindex, nofollow">
 <title>CISSP Domain 1: Security and Risk Management | CISSP Learning</title>
 <meta name="keywords" content="CISSP, AppSec, SDLC">
-<meta name="description" content="Professional Ethics and &amp; Security Concepts
+<meta name="description" content="Professional Ethics &amp; Security Concepts
 
-Code of professional Etics
-Organization code of ethics
+Code of Professional Ethics
+Organization Code of Ethics
 Confidentiality
 Integrity
+Availability
 ">
 <meta name="author" content="">
 <link rel="canonical" href="http://localhost:1313/posts/cissp-domain-1-notes/">
@@ -101,6 +102,21 @@ Integrity
             </div>
         </div>
         <ul id="menu" class="menu">
+            <li>
+                <a href="http://localhost:1313/search/" title="Search (Alt &#43; /)" accesskey=/>
+                    <span>Search</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/tags/" title="Tags">
+                    <span>Tags</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/archives/" title="Archives">
+                    <span>Archives</span>
+                </a>
+            </li>
         </ul>
     </nav>
 </header>
@@ -108,23 +124,47 @@ Integrity
 
 <article class="post-single">
   <header class="post-header">
-    
+    <nav class="breadcrumbs" role="navigation" aria-label="Breadcrumb">
+            <a href="/">Home</a>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-right">
+                <polyline points="9 18 15 12 9 6"></polyline>
+            </svg>
+            <a href="/posts/">Posts</a>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+        stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-right">
+        <polyline points="9 18 15 12 9 6"></polyline>
+    </svg>
+</nav>
     <h1 class="post-title entry-hint-parent">
       CISSP Domain 1: Security and Risk Management
     </h1>
     <div class="post-meta">
 
-<span title='2026-11-15T17:30:00+05:30'>November 15, 2026</span>
+<span title='2026-11-15T17:30:00+05:30'>November 15, 2026</span>&nbsp;·&nbsp;<span>1 min</span>
 
 </div>
-  </header> 
-  <div class="post-content md-content"><h2 id="professional-ethics-and--security-concepts">Professional Ethics and &amp; Security Concepts<a hidden class="anchor" aria-hidden="true" href="#professional-ethics-and--security-concepts">#</a></h2>
-<ol>
-<li>Code of professional Etics</li>
-<li>Organization code of ethics</li>
+  </header> <details class="toc" >
+    <summary accesskey="c" title="(Alt + C)">
+        <span class="title">Table of Contents</span>
+    </summary>
+
+    <div class="inner"><ul>
+            <li>
+                <a href="#professional-ethics--security-concepts" aria-label="Professional Ethics &amp; Security Concepts">Professional Ethics &amp; Security Concepts</a>
+            </li>
+        </ul>
+    </div>
+</details>
+
+  <div class="post-content md-content"><h2 id="professional-ethics--security-concepts">Professional Ethics &amp; Security Concepts<a hidden class="anchor" aria-hidden="true" href="#professional-ethics--security-concepts">#</a></h2>
+<ul>
+<li>Code of Professional Ethics</li>
+<li>Organization Code of Ethics</li>
 <li>Confidentiality</li>
 <li>Integrity</li>
-</ol>
+<li>Availability</li>
+</ul>
 
 
   </div>
@@ -135,6 +175,7 @@ Integrity
       <li><a href="http://localhost:1313/tags/appsec/">AppSec</a></li>
       <li><a href="http://localhost:1313/tags/sdlc/">SDLC</a></li>
     </ul>
+
   </footer>
 </article>
     </main>
@@ -234,6 +275,53 @@ Integrity
         }
     })
 
+</script>
+<script>
+    document.querySelectorAll('pre > code').forEach((codeblock) => {
+        const container = codeblock.parentNode.parentNode;
+
+        const copybutton = document.createElement('button');
+        copybutton.classList.add('copy-code');
+        copybutton.innerHTML = 'copy';
+
+        function copyingDone() {
+            copybutton.innerHTML = 'copied!';
+            setTimeout(() => {
+                copybutton.innerHTML = 'copy';
+            }, 2000);
+        }
+
+        copybutton.addEventListener('click', (cb) => {
+            if ('clipboard' in navigator) {
+                navigator.clipboard.writeText(codeblock.textContent);
+                copyingDone();
+                return;
+            }
+
+            const range = document.createRange();
+            range.selectNodeContents(codeblock);
+            const selection = window.getSelection();
+            selection.removeAllRanges();
+            selection.addRange(range);
+            try {
+                document.execCommand('copy');
+                copyingDone();
+            } catch (e) { };
+            selection.removeRange(range);
+        });
+
+        if (container.classList.contains("highlight")) {
+            container.appendChild(copybutton);
+        } else if (container.parentNode.firstChild == container) {
+            
+        } else if (codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.nodeName == "TABLE") {
+            
+            codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.appendChild(copybutton);
+        } else {
+            
+            codeblock.parentNode.appendChild(copybutton);
+        }
+    });
 </script>
 </body>
 

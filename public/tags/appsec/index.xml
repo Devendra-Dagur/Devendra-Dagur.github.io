@@ -5,7 +5,7 @@
     <link>http://localhost:1313/tags/appsec/</link>
     <description>Recent content in AppSec on CISSP Learning</description>
     <generator>Hugo</generator>
-    <language>en-us</language>
+    <language>en-US</language>
     <lastBuildDate>Sun, 15 Nov 2026 17:30:00 +0530</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/appsec/index.xml" rel="self" type="application/rss+xml" />
     <item>
@@ -13,13 +13,14 @@
       <link>http://localhost:1313/posts/cissp-domain-1-notes/</link>
       <pubDate>Sun, 15 Nov 2026 17:30:00 +0530</pubDate>
       <guid>http://localhost:1313/posts/cissp-domain-1-notes/</guid>
-      <description>&lt;h2 id=&#34;professional-ethics-and--security-concepts&#34;&gt;Professional Ethics and &amp;amp; Security Concepts&lt;/h2&gt;
-&lt;ol&gt;
-&lt;li&gt;Code of professional Etics&lt;/li&gt;
-&lt;li&gt;Organization code of ethics&lt;/li&gt;
+      <description>&lt;h2 id=&#34;professional-ethics--security-concepts&#34;&gt;Professional Ethics &amp;amp; Security Concepts&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Code of Professional Ethics&lt;/li&gt;
+&lt;li&gt;Organization Code of Ethics&lt;/li&gt;
 &lt;li&gt;Confidentiality&lt;/li&gt;
 &lt;li&gt;Integrity&lt;/li&gt;
-&lt;/ol&gt;</description>
+&lt;li&gt;Availability&lt;/li&gt;
+&lt;/ul&gt;</description>
     </item>
   </channel>
 </rss>

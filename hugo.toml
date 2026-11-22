@@ -1,7 +1,12 @@
 baseURL = "https://devendra-dagur.github.io/"
-languageCode = "en-us"
+locale = "en-US"
 title = "CISSP Learning"
 theme = "PaperMod"
+enableRobotsTXT = true
+
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
 
 [params]
   defaultTheme = "auto"
@@ -9,10 +14,19 @@ theme = "PaperMod"
   ShowCodeCopyButtons = true
   ShowBreadCrumbs = true
   ShowToc = true
+  ShowPostNavLinks = true
 
 [params.homeInfoParams]
   Title = "Security & Architecture Notes"
   Content = "Personal study notes, CISSP domain summaries, and Application Security architecture references by Devendra Dagur."
+
+[params.fuseOpts]
+  isCaseSensitive = false
+  shouldSort = true
+  ignoreLocation = true
+  threshold = 0.4
+  minMatchCharLength = 2
+  keys = ["title", "permalink", "summary", "content"]
 
 [[params.socialIcons]]
   name = "github"
@@ -20,7 +34,7 @@ theme = "PaperMod"
 
 [[params.socialIcons]]
   name = "linkedin"
-  url = "https://www.linkedin.com/" # Replace with your LinkedIn profile URL
+  url = "https://www.linkedin.com/in/YOUR-HANDLE/"
 
 [outputs]
   home = ["HTML", "RSS", "JSON"]

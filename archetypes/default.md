@@ -2,9 +2,9 @@
 date = '{{ .Date }}'
 draft = true
 title = '{{ replace .File.ContentBaseName "-" " " | title }}'
-tags = ['CISSP', 'Domain-X']
+tags = ['CISSP']
 categories = ['Study Notes']
-summary = 'Concise 1-line summary of the security concepts covered in this note.'
+summary = ''
 ShowToc = true
 TocOpen = false
 +++
